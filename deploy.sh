@@ -17,7 +17,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:Obsidian200/Obsidian200.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
+  githubUrl=https://Obsidian200:${GITHUB_TOKEN}@github.com/Obsidian200/Obsidian200.github.io.git
   git config --global user.name "enigma"
   git config --global user.email "630987633@qq.com"
 fi
