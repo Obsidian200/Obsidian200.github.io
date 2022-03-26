@@ -1,1 +1,1 @@
-# Blog
+# Obsidian200.github.io
